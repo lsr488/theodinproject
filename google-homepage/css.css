@@ -9,15 +9,63 @@
   float: right;
 }
 
+.nav-bar {
+  text-align: right;
+}
+
+.footer {
+  color: green;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 50px;
+  overflow: hidden;
+  width: 95%;
+  position: fixed; /* Make it stick, even on scroll */
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+li a {
+  padding: 0px 8px;
+  text-decoration: none;
+  color: gray;
+}
+
+/* Changes the link color on hover */
+li a:hover {
+  text-decoration: underline;
+}
+
+/* footer float right */
+.ful-right {
+  float: right;
+}
+
+/* footer float left */
+.ful-left {
+  float: left;
+}
+
 .content {
   width: 980px;
   margin: 30px auto;
   padding: 30px;
   text-align: center; 
-}
-
-.nav-bar {
-  
 }
 
 
@@ -49,6 +97,3 @@
   margin: 5px 5px 5px 5px;
 }
 
-.footer {
-  
-}
